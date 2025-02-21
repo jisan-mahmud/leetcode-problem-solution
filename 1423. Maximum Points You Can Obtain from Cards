@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int maxScore(vector<int>& cardPoints, int k) {
+       int n = cardPoints.size();
+
+        int total_sum = accumulate(cardPoints.begin(), cardPoints.end(), 0);
+
+        if(n == k) return total_sum;
+
+        int window_size = n - k;
+        int window_sum = accumulate(cardPoints.begin(), cardPoints.begin() + window_size, 0);
+        int minimum_subarr_sum = window_sum;
+
+        for(int i = window_size;i < n;i++){
+            window_sum += cardPoints[i] - cardPoints[i - window_size];
+            minimum_subarr_sum = min(minimum_subarr_sum, window_sum);
+        }
+        return total_sum - minimum_subarr_sum;
+    }
+};
