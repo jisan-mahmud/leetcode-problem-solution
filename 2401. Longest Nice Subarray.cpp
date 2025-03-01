@@ -1,3 +1,5 @@
+
+//FIrst Approach
 class Solution {
 public:
     int longestNiceSubarray(vector<int>& nums) {
@@ -37,6 +39,30 @@ public:
             }
 
             mx = max(r-l+1, mx);
+        }
+
+        return mx;
+        
+    }
+};
+
+
+//Second Approach
+class Solution {
+public:
+    int longestNiceSubarray(vector<int>& nums) {
+
+        int mx = 0;
+
+        for(int i = 0;i < nums.size();i++){
+            int check = 0;
+            for(int j = i; j < nums.size();j++){
+                if(check & nums[j]) break;
+                else{
+                    mx = max(mx, j - i+1);
+                    check |= nums[j];
+                }
+            }
         }
 
         return mx;
