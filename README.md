@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0023-merge-k-sorted-lists) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Two Pointers
@@ -26,4 +27,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0023-merge-k-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
