@@ -9,32 +9,33 @@
  * };
  */
 class Solution {
-private:
-    vector<int> sum;
 public:
     int pairSum(ListNode* head) {
-        
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        ListNode* currentNode = head;
-        ListNode* prevNode = nullptr;
-        
-        while(head != nullptr){
-            sum.push_back(head->val);
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        ListNode* prev = nullptr;
+
+        while (slow) {
+            ListNode* next = slow->next;
+            slow->next = prev;
+            prev = slow;
+            slow = next;
+        }
+
+        int ans = 0;
+
+        while (prev) {
+            ans = max(ans, head->val + prev->val);
             head = head->next;
-
-            currentNode->next = prevNode;
-            prevNode = currentNode;
-            currentNode = head;
+            prev = prev->next;
         }
 
-        int i = 0;
-
-        while(prevNode != nullptr){
-            sum[i] += prevNode->val;
-            prevNode = prevNode->next;
-            i++;
-        }
-
-        return *max_element(sum.begin(), sum.end());
+        return ans;
     }
 };
