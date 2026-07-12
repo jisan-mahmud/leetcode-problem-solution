@@ -25,12 +25,11 @@ private:
             if(inorder[inorder_root] == preorder[prest]) break;
         }
 
-        TreeNode* left = buildTree(preorder, inorder, prest + 1, prest + (inorder_root - inst), inst, inorder_root - 1);
+        int leftSize = inorder_root - inst;
 
-        TreeNode* right = buildTree(preorder, inorder, prest + 1 + (inorder_root - inst), prend, inorder_root + 1, innd);
+        root->left = buildTree(preorder, inorder, prest + 1, prest + leftSize, inst, inorder_root - 1);
 
-        root -> left = left;
-        root -> right = right;
+        root->right = buildTree(preorder, inorder, prest + leftSize + 1, prend, inorder_root + 1, innd);
 
         return root;
 
