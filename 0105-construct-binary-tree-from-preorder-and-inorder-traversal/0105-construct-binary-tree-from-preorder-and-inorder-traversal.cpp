@@ -11,7 +11,7 @@
  */
 class Solution {
 private:
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder, int prest, int prend, int inst, int innd){
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder, int prest, int prend, int inst, int innd, unordered_map<int, int>& mp){
 
         if(prest > prend || inst > innd) return nullptr;
 
@@ -19,23 +19,25 @@ private:
 
         if(prest == prend) return root;
 
-        int inorder_root;
-
-        for(inorder_root = inst; inorder_root <= innd; inorder_root++){
-            if(inorder[inorder_root] == preorder[prest]) break;
-        }
+        int inorder_root = mp[root->val];
 
         int leftSize = inorder_root - inst;
 
-        root->left = buildTree(preorder, inorder, prest + 1, prest + leftSize, inst, inorder_root - 1);
+        root->left = buildTree(preorder, inorder, prest + 1, prest + leftSize, inst, inorder_root - 1, mp);
 
-        root->right = buildTree(preorder, inorder, prest + leftSize + 1, prend, inorder_root + 1, innd);
+        root->right = buildTree(preorder, inorder, prest + leftSize + 1, prend, inorder_root + 1, innd, mp);
 
         return root;
 
     }
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        return buildTree(preorder, inorder, 0, preorder.size() - 1, 0, inorder.size() - 1);
+        unordered_map<int, int> mp;
+
+        for(int i = 0; i < inorder.size(); i++){
+            mp[inorder[i]] = i;
+        }
+
+        return buildTree(preorder, inorder, 0, preorder.size() - 1, 0, inorder.size() - 1, mp);
     }
 };
