@@ -27,7 +27,7 @@ private:
 
         int leftSize = inorder_root - inst;
 
-        root->left = buildTree(preorder, inorder, prest + 1, prest + leftSize, inst, inorder_root - 1);
+        root->left = buildTree(preorder, inorder, prest + 1, prend, inst, inorder_root - 1);
 
         root->right = buildTree(preorder, inorder, prest + leftSize + 1, prend, inorder_root + 1, innd);
 
