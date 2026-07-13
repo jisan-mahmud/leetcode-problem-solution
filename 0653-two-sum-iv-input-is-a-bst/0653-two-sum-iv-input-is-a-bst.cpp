@@ -10,27 +10,25 @@
  * };
  */
 class Solution {
-private:
-    bool found = false;
-    unordered_set<int> st;
-
-    void find(TreeNode* root, int k){
-
-        if(root == nullptr) return;
-
-        if(st.count(k - root->val)){
-            found = true;
-            return;
-        }
-
-        st.insert(root->val);
-
-        find(root->left, k);
-        find(root->right, k);
-    }
 public:
     bool findTarget(TreeNode* root, int k) {
-        find(root, k);
-        return found;
+        unordered_set<int> seen;
+        stack<TreeNode*> st;
+
+        st.push(root);
+
+        while(!st.empty()){
+            TreeNode* node = st.top();
+            st.pop();
+
+            if(seen.count(k - node->val)) return true;
+
+            seen.insert(node->val);
+
+            if(node->left) st.push(node->left);
+            if(node->right) st.push(node->right);
+        }
+
+        return false;
     }
 };
