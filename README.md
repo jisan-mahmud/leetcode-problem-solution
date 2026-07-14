@@ -46,17 +46,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Breadth-First Search
@@ -67,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 <!---LeetCode Topics End-->
