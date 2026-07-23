@@ -11,43 +11,30 @@
  */
 class Solution {
 private:
-    class MetaData{
-        public:
-            bool isBST;
-            int sum;
-            int mn;
-            int mx;
-
-            MetaData(){
-                isBST = true;
-                sum = 0;
-                mn = INT_MAX;
-                mx = INT_MIN;
-            }
-
+    struct MetaData {
+        bool isBST = true;
+        int sum = 0;
+        int mn = INT_MAX;
+        int mx = INT_MIN;
     };
 
-    MetaData* findMaxSum(TreeNode* currNode, int& maxSum){
-        if(currNode == nullptr){
-            return new MetaData();
+    MetaData findMaxSum(TreeNode* node, int& maxSum) {
+        if (!node) return MetaData();
+
+        MetaData left = findMaxSum(node->left, maxSum);
+        MetaData right = findMaxSum(node->right, maxSum);
+
+        MetaData curr;
+        if (left.isBST && right.isBST &&
+            left.mx < node->val && right.mn > node->val) {
+            curr.sum = left.sum + right.sum + node->val;
+            curr.mn = min(left.mn, node->val);
+            curr.mx = max(right.mx, node->val);
+            maxSum = max(maxSum, curr.sum);
+        } else {
+            curr.isBST = false;
         }
-
-        MetaData* left = findMaxSum(currNode->left, maxSum);
-        MetaData* right = findMaxSum(currNode->right, maxSum);
-
-        if(left->isBST && right->isBST && left->mx < currNode->val && right->mn > currNode->val){
-            MetaData* currNodeMetaData = new MetaData();
-            currNodeMetaData->sum = left->sum + right->sum + currNode->val;
-            currNodeMetaData->mn = min(left->mn, currNode->val);
-            currNodeMetaData->mx = max(right->mx, currNode->val);
-
-            maxSum = max(maxSum, currNodeMetaData->sum);
-            return currNodeMetaData;
-        }
-
-        MetaData* currNodeMetaData = new MetaData();
-        currNodeMetaData->isBST = false;
-        return currNodeMetaData;
+        return curr;
     }
 
 public:
