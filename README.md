@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -85,4 +86,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
