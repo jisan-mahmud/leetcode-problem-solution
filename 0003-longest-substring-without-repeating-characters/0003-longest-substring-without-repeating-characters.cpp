@@ -1,25 +1,23 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-
-        vector<int> lastSeen(256, -1);
-
+        deque<char> wnd;
+        vector<int> cnt(256, 0);   // <-- big enough for any char
         int ans = 0;
-        int start = 0;
 
-        for(int i = 0; i < s.size(); i++){
-            char c = s[i];
+        for (int i = 0; i < s.size(); i++) {
+            wnd.push_back(s[i]);
+            cnt[(unsigned char)s[i]]++;   // <-- index by the char itself
 
-            if(lastSeen[c] >= start){
-                start = lastSeen[c] + 1;
+            while (cnt[(unsigned char)s[i]] > 1) {
+                char x = wnd.front();
+                wnd.pop_front();
+                cnt[(unsigned char)x]--;
             }
 
-            lastSeen[c] = i;
-
-            ans = max(ans, i - start + 1);
+            ans = max(ans, (int)wnd.size());
         }
 
         return ans;
-        
     }
 };
