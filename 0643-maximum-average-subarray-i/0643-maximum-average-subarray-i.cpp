@@ -9,7 +9,7 @@ public:
 
             if(i >= k - 1){
                 ans = max(ans, sum / k);
-                sum -= nums[i+1 - k];
+                sum -= nums[i - k + 1];
             }
         }
 
