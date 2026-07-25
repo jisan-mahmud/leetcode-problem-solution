@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
@@ -98,5 +99,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
