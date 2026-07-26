@@ -2,8 +2,9 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-        set< vector<int> > ans;
+        vector< vector<int> > ans;
         for(int i = 0; i < nums.size(); i++){
+            if (i && nums[i] == nums[i - 1]) continue;
             int l = i + 1, r = nums.size() - 1;
 
             while (l < r) {
@@ -12,13 +13,16 @@ public:
                 if (sum < 0) l++;
                 else if (sum > 0) r--;
                 else {
-                    ans.insert({nums[i], nums[l], nums[r]});
+                    ans.push_back({nums[i], nums[l], nums[r]});
                     l++;
                     r--;
+
+                    while (l < r && nums[l] == nums[l - 1]) l++;
+                    while (l < r && nums[r] == nums[r + 1]) r--;
                 }
             }
         }
 
-        return vector<vector<int>> (ans.begin(), ans.end());
+        return ans;
     }
 };
