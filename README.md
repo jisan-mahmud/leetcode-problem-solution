@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 ## Hash Table
@@ -103,4 +105,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
