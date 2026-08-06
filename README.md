@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -111,4 +112,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
