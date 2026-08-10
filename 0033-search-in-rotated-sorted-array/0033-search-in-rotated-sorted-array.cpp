@@ -19,11 +19,11 @@ public:
             if(nums[mid] > nums[high])
                 low = mid + 1;
             else
-                high = mid;   // fixed
+                high = mid; 
         }
 
-        // low is now the index of the minimum element
-        if(target >= nums[low] && target <= nums[n - 1]){   // fixed condition
+       
+        if(target >= nums[low] && target <= nums[n - 1]){ 
             return find(nums, target, low, n - 1);
         }
         return find(nums, target, 0, low - 1);
