@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
+| [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
 ## Hash Table
 |  |
 | ------- |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
+| [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
 ## Dynamic Programming
 |  |
 | ------- |
