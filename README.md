@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Divide and Conquer
 |  |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
 ## Tree
 |  |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0146-lru-cache) |
+| [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
 ## Longest Increasing Subsequence
 |  |
@@ -166,4 +169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0146-lru-cache) |
+## Ordered Set
+|  |
+| ------- |
+| [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 <!---LeetCode Topics End-->
