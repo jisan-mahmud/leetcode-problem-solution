@@ -1,41 +1,38 @@
 class LRUCache {
 private:
-
-    class Node{
-        public: 
-            Node* prev;
+    class Node {
+        public:
             Node* next;
-            
+            Node* prev;
             int key;
             int val;
 
-            Node(int key, int value){
-                prev = nullptr;
-                next = nullptr;
+            Node (int key, int val){
                 this->key = key;
-                val = value;
+                this->val = val;
+
+                next = prev = nullptr;
             }
     };
 
-
     int limit;
+    unordered_map<int, Node*> cache;
 
     Node* head;
     Node* tail;
 
     void addNode(Node* node){
-        node->prev = head;
-        node->next = head->next;
         head->next->prev = node;
+        node->next = head->next;
+
         head->next = node;
+        node->prev = head;
     }
 
     void delNode(Node* node){
         node->prev->next = node->next;
         node->next->prev = node->prev;
     }
-
-    unordered_map<int, Node*> mp;
 
 public:
     LRUCache(int capacity) {
@@ -45,14 +42,12 @@ public:
 
         head->next = tail;
         tail->prev = head;
-
     }
     
     int get(int key) {
-        if(!mp.count(key)) return -1;
+        if(!cache.count(key)) return -1;
 
-        Node* node = mp[key];
-
+        Node* node = cache[key];
         delNode(node);
         addNode(node);
 
@@ -60,29 +55,26 @@ public:
     }
     
     void put(int key, int value) {
-        if (mp.count(key)) {
-            Node* node = mp[key];
-
+        if(cache.count(key)){
+            Node* node = cache[key];
             node->val = value;
+
             delNode(node);
             addNode(node);
-
             return;
         }
 
-        if (mp.size() == limit) {
-            Node* lru = tail->prev;
+        if(cache.size() == limit){
+            Node* node = tail->prev;
+            cache.erase(node->key);
+            delNode(node);
 
-            mp.erase(lru->key);
-            delNode(lru);
-            delete lru;
+            delete node;
         }
 
-        
-
         Node* node = new Node(key, value);
-        mp[key] = node;
         addNode(node);
+        cache[key] = node;
     }
 };
 
