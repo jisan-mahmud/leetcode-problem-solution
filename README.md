@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
