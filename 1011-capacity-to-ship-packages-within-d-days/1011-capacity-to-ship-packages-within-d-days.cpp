@@ -1,7 +1,7 @@
 class Solution {
 private:
     bool isPossible(vector<int>& weights, int maxWeight, int days){
-        int takeWeights = 0, takeDays = 0;
+        int takeWeights = 0, takeDays = 1;
 
         for(int w: weights){
             if(takeWeights + w <= maxWeight){
@@ -11,7 +11,7 @@ private:
                 takeDays++;
             }
 
-            if(takeDays >= days) return false;
+            if(takeDays > days) return false;
         }
 
         return true;
