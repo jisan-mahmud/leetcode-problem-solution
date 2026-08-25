@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 ## Heap (Priority Queue)
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
