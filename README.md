@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0023-merge-k-sorted-lists) |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 ## Merge Sort
 |  |
 | ------- |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0354-russian-doll-envelopes](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0354-russian-doll-envelopes) |
 | [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -95,12 +97,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0669-trim-a-binary-search-tree) |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -117,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0669-trim-a-binary-search-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0669-trim-a-binary-search-tree) |
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -160,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Ternary Search
 |  |
@@ -186,4 +192,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
+## Union-Find
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+## Minimax
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 <!---LeetCode Topics End-->
