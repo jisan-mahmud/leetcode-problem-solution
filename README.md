@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 | [0300-longest-increasing-subsequence](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0354-russian-doll-envelopes) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 ## Newton's Method
 |  |
@@ -204,4 +206,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
