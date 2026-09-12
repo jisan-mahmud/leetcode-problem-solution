@@ -1,20 +1,19 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int n, int *dp){
-        if(n < 0) return 0;
-
-        if(dp[n] != -1) return dp[n];
-
-        int rob = nums[n] + solve(nums, n - 2, dp);
-        int notRod = solve(nums, n - 1, dp);
-
-        return dp[n] = max(rob, notRod);
-    }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        int dp[n];
-        memset(dp, -1, sizeof(dp));
+        if(n == 1) return nums[0];
 
-        return solve(nums, n - 1, dp);
+        vector<int> dp(n);
+
+        dp[0] = nums[0];
+        dp[1] = max(nums[0], nums[1]);
+
+        for(int i = 2; i < n; i++){
+            dp[i] = max(dp[i-1], dp[i-2] + nums[i]);
+        }
+
+        return dp[n-1];
+        
     }
 };
