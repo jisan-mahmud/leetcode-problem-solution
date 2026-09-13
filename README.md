@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0354-russian-doll-envelopes](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0354-russian-doll-envelopes) |
 | [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
+| [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0354-russian-doll-envelopes) |
+| [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Sliding Window
 |  |
