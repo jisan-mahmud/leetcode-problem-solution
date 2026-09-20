@@ -1,37 +1,23 @@
 class Solution {
 public:
+    int solve(int i, int currentSum, vector<int>& nums, int target, vector<vector<int>> &dp, int offset){
+        if(i == nums.size()) return currentSum == target ? 1 : 0;
+
+        int j = currentSum + offset;
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+        int plus = solve(i+1, currentSum + nums[i], nums, target, dp, offset);
+        int minus = solve(i+1, currentSum - nums[i], nums, target, dp, offset);
+
+        return dp[i][j] = plus + minus;
+    }
     int findTargetSumWays(vector<int>& nums, int target) {
+        int n = nums.size();
+        int total = accumulate(nums.begin(), nums.end(), 0);
+        vector<vector<int>> dp(n, vector<int>(total * 2 + 1, -1));
 
-        int total = 0;
-        for (int x : nums)
-            total += x;
 
-        if (abs(target) > total)
-            return 0;
-
-        int offset = total;
-
-        vector<int> dp(2 * total + 1, 0);
-        dp[offset] = 1;  // sum = 0
-
-        for (int x : nums) {
-
-            vector<int> next(2 * total + 1, 0);
-
-            for (int sum = -total; sum <= total; sum++) {
-
-                if (dp[sum + offset] == 0)
-                    continue;
-
-                int ways = dp[sum + offset];
-
-                next[sum + x + offset] += ways;
-                next[sum - x + offset] += ways;
-            }
-
-            dp = next;
-        }
-
-        return dp[target + offset];
+        return solve(0, 0, nums, target, dp, total);
     }
 };
