@@ -15,16 +15,16 @@ public:
         for(int i = n - 1; i >= 0; i--) {
             for(int j = 1; j <= amount; j++) {
 
-                long long take = 0;
+                long take = 0;
 
                 if(coins[i] <= j)
                     take = dp[i][j - coins[i]];
 
-                long long not_take = dp[i + 1][j];
+                long not_take = dp[i + 1][j];
 
-                long long total = take + not_take;
+                long total = take + not_take;
 
-                dp[i][j] = min(total, (long long)INT_MAX);
+                dp[i][j] = min(total, (long)INT_MAX);
             }
         }
 
