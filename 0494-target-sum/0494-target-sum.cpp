@@ -1,23 +1,32 @@
 class Solution {
 public:
-    int solve(int i, int currentSum, vector<int>& nums, int target, vector<vector<int>> &dp, int offset){
-        if(i == nums.size()) return currentSum == target ? 1 : 0;
 
-        int j = currentSum + offset;
+    int solve(int i, int currentSum, vector<int>& nums, int target,
+ vector<unordered_map<int, int>>& dp) {
 
-        if(dp[i][j] != -1) return dp[i][j];
+        if (i == nums.size()) {
+            return currentSum == target ? 1 : 0;
+        }
 
-        int plus = solve(i+1, currentSum + nums[i], nums, target, dp, offset);
-        int minus = solve(i+1, currentSum - nums[i], nums, target, dp, offset);
 
-        return dp[i][j] = plus + minus;
+        if (dp[i].count(currentSum)) {
+            return dp[i][currentSum];
+        }
+
+        int plus = solve(i + 1, currentSum + nums[i], nums, target, dp);
+
+
+        int minus = solve(i + 1, currentSum - nums[i], nums, target, dp);
+
+        return dp[i][currentSum] = plus + minus;
     }
+
     int findTargetSumWays(vector<int>& nums, int target) {
+
         int n = nums.size();
-        int total = accumulate(nums.begin(), nums.end(), 0);
-        vector<vector<int>> dp(n, vector<int>(total * 2 + 1, -1));
 
+        vector<unordered_map<int, int>> dp(n);
 
-        return solve(0, 0, nums, target, dp, total);
+        return solve(0, 0, nums, target, dp);
     }
 };
