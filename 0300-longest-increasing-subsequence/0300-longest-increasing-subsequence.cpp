@@ -1,16 +1,21 @@
 class Solution {
 public:
+    int solve(int i, int prev, vector<int>& nums,  vector<vector<int>> &dp){
+        if(i == nums.size()) return 0;
+
+        if(dp[i][prev+1] != -1) return dp[i][prev+1];
+
+        int take = 0;
+        if(prev == -1 || nums[i] > nums[prev]) take = 1 + solve(i + 1, i, nums, dp);
+
+        int not_take = solve(i + 1, prev, nums, dp);
+
+        return dp[i][prev+1] = max(take, not_take);
+    }
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> lis(nums.size() + 1, INT_MAX);
-        int ans = 0;
+        int n = nums.size();
 
-        for(int num : nums){
-            int index = lower_bound(lis.begin(), lis.end(), num) - lis.begin();
-            lis[index] = num;
-
-            ans = max(ans, index+1);
-        }
-
-        return ans;
+        vector<vector<int>> dp(n, vector<int>(n+1, -1));
+        return solve(0, -1, nums, dp);
     }
 };
