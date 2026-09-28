@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 ## Tree
 |  |
 | ------- |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0669-trim-a-binary-search-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -118,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -268,4 +272,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
+## DP on Trees
+|  |
+| ------- |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 <!---LeetCode Topics End-->
