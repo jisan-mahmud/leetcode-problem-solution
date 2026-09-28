@@ -1,31 +1,38 @@
 class Solution {
 public:
 
-    int dfs(int current, int parent, vector<vector<int>>& graph, vector<bool>& hasApple) {
-
-        int time = 0;
+    void dfs(int current,
+             int parent,
+             vector<vector<int>>& graph,
+             vector<bool>& hasApple,
+             int& answer) {
 
         for (auto child : graph[current]) {
 
             if (child == parent)
                 continue;
 
-            int childTime = dfs(child, current, graph, hasApple);
+            dfs(child, current, graph, hasApple, answer);
 
-            if (childTime > 0 || hasApple[child]) {
-                time += childTime + 2;
+            // If this child's subtree contains an apple,
+            // we must travel current -> child -> current.
+            if (hasApple[child]) {
+                answer += 2;
+
+                // Mark current as containing an apple
+                // because its child's subtree has one.
+                hasApple[current] = true;
             }
         }
-
-        return time;
     }
 
-
-    int minTime(int n, vector<vector<int>>& edges,
+    int minTime(int n,
+                vector<vector<int>>& edges,
                 vector<bool>& hasApple) {
 
         vector<vector<int>> graph(n);
 
+        // Tree is undirected
         for (auto edge : edges) {
 
             int u = edge[0];
@@ -35,6 +42,10 @@ public:
             graph[v].push_back(u);
         }
 
-        return dfs(0, -1, graph, hasApple);
+        int answer = 0;
+
+        dfs(0, -1, graph, hasApple, answer);
+
+        return answer;
     }
 };
