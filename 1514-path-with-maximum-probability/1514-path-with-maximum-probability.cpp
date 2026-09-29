@@ -22,6 +22,7 @@ public:
             auto [rate, node] = pq.top();
             pq.pop();
 
+            if(rate < prob[node]) continue;
 
             for(auto childPair : graph[node]){
                 auto [childNode, childRate] = childPair;
