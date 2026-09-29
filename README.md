@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0518-coin-change-ii) |
 | [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Sliding Window
 |  |
 | ------- |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Memoization
 |  |
 | ------- |
@@ -276,12 +278,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## DP on Trees
 |  |
 | ------- |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+## Topological Sort
+|  |
+| ------- |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
