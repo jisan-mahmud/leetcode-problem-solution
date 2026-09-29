@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0023-merge-k-sorted-lists) |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+| [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 ## Merge Sort
 |  |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+| [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Memoization
@@ -278,11 +281,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## DP on Trees
 |  |
