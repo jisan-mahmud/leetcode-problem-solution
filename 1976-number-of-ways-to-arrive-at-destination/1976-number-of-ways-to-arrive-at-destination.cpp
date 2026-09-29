@@ -18,17 +18,15 @@ public:
         dist[0] = 0;
         ways[0] = 1;
 
-        priority_queue<
-            pair<long long, int>,
-            vector<pair<long long, int>>,
-            greater<pair<long long, int>>
-        > pq;
+        priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>> pq;
 
         pq.push({0, 0});
 
         while(!pq.empty()){
             auto [nodeTime, node] = pq.top();
             pq.pop();
+
+            if (nodeTime > dist[node]) continue;
 
             for(auto child : graph[node]){
                 auto [childNode, childTime] = child;
