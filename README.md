@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Divide and Conquer
 |  |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 ## Sorting
 |  |
 | ------- |
