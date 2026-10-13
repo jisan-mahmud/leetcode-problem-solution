@@ -17,11 +17,10 @@ public:
         }
 
         string res = "";
-        int remove = open;
 
         for(int i = ans.size() - 1; i >= 0; i--) {
-            if(ans[i] == '(' && remove > 0) {
-                remove--;
+            if(ans[i] == '(' && open > 0) {
+                open--;
                 continue;
             }
 
