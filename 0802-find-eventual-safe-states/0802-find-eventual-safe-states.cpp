@@ -8,10 +8,8 @@ public:
             if (visited[child] == 1) return false;
 
             if (visited[child] == -1) {
-                if (!dfs(child, graph, visited)) return false;
+                if(!dfs(child, graph, visited)) return false;
             }
-
-            if (visited[child] == 2) continue;
         }
 
         visited[src] = 2;
