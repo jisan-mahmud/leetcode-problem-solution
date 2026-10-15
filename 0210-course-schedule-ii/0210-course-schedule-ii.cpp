@@ -38,7 +38,6 @@ public:
         }
 
         vector<int> result;
-        // result.reserve(numCourses);
 
         while (!st.empty()) {
             result.push_back(st.top());
