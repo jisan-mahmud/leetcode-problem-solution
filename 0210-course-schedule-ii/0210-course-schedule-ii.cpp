@@ -33,8 +33,7 @@ public:
 
         for (int i = 0; i < numCourses; i++) {
             if (visited[i] == -1) {
-                if (!dfs(i, graph, visited, st))
-                    return {};
+                if (!dfs(i, graph, visited, st)) return {};
             }
         }
 
