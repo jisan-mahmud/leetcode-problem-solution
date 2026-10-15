@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0207-course-schedule) |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
@@ -307,9 +310,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0207-course-schedule) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
