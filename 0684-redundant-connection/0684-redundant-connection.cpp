@@ -4,11 +4,11 @@ public:
     vector<int> rank;
 
     int find(int x){
-        if(parent[x] != x){
-            parent[x] = find(parent[x]);
+        if(parent[x] == x){
+            return x;
         }
 
-        return parent[x];
+        return parent[x] = find(parent[x]);
     }
 
     bool unite(int x, int y){
