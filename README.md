@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 ## Sorting
 |  |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 ## Minimax
 |  |
@@ -300,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0802-find-eventual-safe-states) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
