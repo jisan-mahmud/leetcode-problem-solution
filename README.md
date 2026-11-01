@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0518-coin-change-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0704-binary-search) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0460-lfu-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0460-lfu-cache) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0669-trim-a-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -136,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -199,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
 | [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -207,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0015-3sum) |
 | [0354-russian-doll-envelopes](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0354-russian-doll-envelopes) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 ## Math
 |  |
 | ------- |
@@ -256,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
 | [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
