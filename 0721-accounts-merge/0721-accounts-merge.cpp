@@ -54,7 +54,6 @@ public:
             parent[i] = i;
         }
 
-        // Step 3: Union emails
         for(auto &account : accounts) {
 
             int firstEmailId = emailToId[account[1]];
@@ -66,7 +65,6 @@ public:
             }
         }
 
-        // Step 4: Group emails
         unordered_map<int, vector<string>> groups;
 
         for(auto &[email, emailId] : emailToId) {
@@ -74,7 +72,6 @@ public:
             groups[root].push_back(email);
         }
 
-        // Step 5: Build answer
         vector<vector<string>> ans;
 
         for(auto &[root, emails] : groups) {
