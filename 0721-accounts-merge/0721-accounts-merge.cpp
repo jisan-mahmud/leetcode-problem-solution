@@ -29,66 +29,59 @@ public:
     }
 
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-
         unordered_map<string, int> emailToId;
         unordered_map<string, string> emailToName;
 
         int id = 0;
 
-        for(auto &account : accounts) {
+        for(auto &account:accounts){
             string name = account[0];
-
-            for(int i = 1; i < account.size(); i++) {
-
-                if(!emailToId.count(account[i])) {
-                    emailToId[account[i]] = id++;
-                    emailToName[account[i]] = name;
-                }
+            for(int i = 1; i < account.size(); i++){
+                emailToId[account[i]] = id++;
+                emailToName[account[i]] = name;
             }
         }
 
         parent.resize(id);
         rank.assign(id, 0);
 
-        for(int i = 0; i < id; i++) {
+        for(int i = 0; i < id; i++){
             parent[i] = i;
         }
 
-        for(auto &account : accounts) {
-
+        for(auto &account : accounts){
             int firstEmailId = emailToId[account[1]];
-
-            for(int i = 2; i < account.size(); i++) {
+            
+            for(int i = 2; i < account.size(); i++){
                 int currentEmailId = emailToId[account[i]];
 
                 unite(firstEmailId, currentEmailId);
             }
+
         }
 
         unordered_map<int, vector<string>> groups;
 
-        for(auto &[email, emailId] : emailToId) {
-            int root = find(emailId);
+        for(auto &[email, id] : emailToId){
+            int root = find(id);
             groups[root].push_back(email);
         }
 
         vector<vector<string>> ans;
 
-        for(auto &[root, emails] : groups) {
-
+        for(auto &[root, emails] : groups){
             sort(emails.begin(), emails.end());
 
             vector<string> mergedAccount;
 
-            mergedAccount.push_back(emailToName[emails[0]]);
-
-            for(auto &email : emails) {
-                mergedAccount.push_back(email);
-            }
+            string name = emailToName[emails[0]];
+            mergedAccount.push_back(name);
+            mergedAccount.insert(mergedAccount.end(), emails.begin(), emails.end());
 
             ans.push_back(mergedAccount);
         }
 
         return ans;
+
     }
 };
