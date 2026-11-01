@@ -35,20 +35,18 @@ public:
 
         int id = 0;
 
-        // Step 1: Assign unique IDs
         for(auto &account : accounts) {
             string name = account[0];
 
             for(int i = 1; i < account.size(); i++) {
 
-                if(!emailToId.count(account[i])) {
+                // if(!emailToId.count(account[i])) {
                     emailToId[account[i]] = id++;
                     emailToName[account[i]] = name;
-                }
+                // }
             }
         }
 
-        // Step 2: Initialize DSU
         parent.resize(id);
         rank.assign(id, 0);
 
