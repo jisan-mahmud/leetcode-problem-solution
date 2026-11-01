@@ -40,10 +40,10 @@ public:
 
             for(int i = 1; i < account.size(); i++) {
 
-                // if(!emailToId.count(account[i])) {
+                if(!emailToId.count(account[i])) {
                     emailToId[account[i]] = id++;
                     emailToName[account[i]] = name;
-                // }
+                }
             }
         }
 
