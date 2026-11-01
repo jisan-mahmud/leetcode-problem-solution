@@ -2,19 +2,18 @@ class Solution {
 public:
     vector<int> parent;
     vector<int> rank;
-
+    
     int find(int x){
-        if(parent[x] == x){
-            return x;
-        }
-
+        if(x == parent[x]) return x;
         return parent[x] = find(parent[x]);
     }
 
     bool unite(int x, int y){
         x = find(x);
         y = find(y);
+
         if(x == y) return false;
+
         if(rank[x] < rank[y]){
             parent[x] = y;
         }else if(rank[x] > rank[y]){
@@ -23,6 +22,7 @@ public:
             parent[x] = y;
             rank[y]++;
         }
+
         return true;
     }
 
@@ -38,11 +38,12 @@ public:
         for(auto edge : edges){
             int u = edge[0];
             int v = edge[1];
+
             if(!unite(u, v)){
                 return {u, v};
             }
         }
 
-        return {0, 0};
+        return {};
     }
 };
