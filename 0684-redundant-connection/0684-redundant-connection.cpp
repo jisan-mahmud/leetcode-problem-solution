@@ -35,7 +35,7 @@ public:
             parent[i] = i;
         }
 
-        for(auto edge : edges){
+        for(auto &edge : edges){
             int u = edge[0];
             int v = edge[1];
 
