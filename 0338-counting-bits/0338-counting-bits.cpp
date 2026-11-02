@@ -2,9 +2,8 @@ class Solution {
 public:
     int bitCount(int x){
         int cnt = 0;
-        while(x){
-            if(x % 2) cnt++;
-            x/=2;
+        for(int i = 0; i < 32; i++){
+            if(x & (1 << i)) cnt++;
         }
         return cnt;
     }
