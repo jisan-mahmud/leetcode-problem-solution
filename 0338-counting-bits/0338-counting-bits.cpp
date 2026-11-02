@@ -1,19 +1,14 @@
 class Solution {
 public:
-    int bitCount(int x){
-        int cnt = 0;
-        for(int i = 0; i < 32; i++){
-            if(x & (1 << i)) cnt++;
-        }
-        return cnt;
-    }
     vector<int> countBits(int n) {
-        vector<int> ans;
+        vector<int> dp(n + 1, 0);
+        int sub = 1;
 
-        for(int i = 0; i <= n; i++){
-            ans.push_back(bitCount(i));
+        for(int i = 1; i <= n; i++){
+            if(sub * 2 == i) sub = i;
+            dp[i] = dp[i - sub] + 1;
         }
 
-        return ans;
+        return dp;
     }
 };
