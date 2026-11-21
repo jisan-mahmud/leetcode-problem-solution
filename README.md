@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2826-sorting-three-groups](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2826-sorting-three-groups) |
 ## Hash Table
 |  |
 | ------- |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1870-minimum-speed-to-arrive-on-time) |
+| [2826-sorting-three-groups](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2826-sorting-three-groups) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2826-sorting-three-groups](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2826-sorting-three-groups) |
 ## Sliding Window
 |  |
 | ------- |
