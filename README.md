@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-satisfiability-of-equality-equations](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0990-satisfiability-of-equality-equations) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
 | [1514-path-with-maximum-probability](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1514-path-with-maximum-probability) |
 | [1539-kth-missing-positive-number](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1631-path-with-minimum-effort) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
 ## Newton's Method
 |  |
 | ------- |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0460-lfu-cache) |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
+| [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
@@ -376,4 +379,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0139-word-break) |
+## Data Stream
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
+## Prefix Sum
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
