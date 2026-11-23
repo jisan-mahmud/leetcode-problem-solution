@@ -1,6 +1,5 @@
 class ProductOfNumbers {
 private:
-    vector<int> arr;
     vector<int> prefixProduct;
 public:
     ProductOfNumbers() {
@@ -8,7 +7,6 @@ public:
     }
     
     void add(int num) {
-        arr.push_back(num);
         if (num == 0){
             prefixProduct.clear();
             prefixProduct.push_back(1);
