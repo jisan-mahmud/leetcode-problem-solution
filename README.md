@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0225-implement-stack-using-queues) |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0146-lru-cache) |
+| [0225-implement-stack-using-queues](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0225-implement-stack-using-queues) |
 | [0460-lfu-cache](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0460-lfu-cache) |
 | [0895-maximum-frequency-stack](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0981-time-based-key-value-store) |
@@ -387,4 +389,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
