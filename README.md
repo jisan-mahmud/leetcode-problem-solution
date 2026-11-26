@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
+| [3360-stone-removal-game](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/3360-stone-removal-game) |
 ## Newton's Method
 |  |
 | ------- |
@@ -396,4 +397,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0232-implement-queue-using-stacks) |
+## Simulation
+|  |
+| ------- |
+| [3360-stone-removal-game](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/3360-stone-removal-game) |
 <!---LeetCode Topics End-->
