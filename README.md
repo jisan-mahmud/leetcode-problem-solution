@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2826-sorting-three-groups](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/2826-sorting-three-groups) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0070-climbing-stairs) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1352-product-of-the-last-k-numbers](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1352-product-of-the-last-k-numbers) |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
 | [3360-stone-removal-game](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/3360-stone-removal-game) |
 ## Newton's Method
 |  |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/0778-swim-in-rising-water) |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
@@ -401,4 +404,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3360-stone-removal-game](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/3360-stone-removal-game) |
+## Game Theory
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/jisan-mahmud/leetcode-problem-solution/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
